@@ -19,16 +19,16 @@ let settings = {
             image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
         },
         { 
-            image: './image/photos/b1.png', // Menggantikan lhvuck.png (Index 1)
+            image: './image/photos/mai8.JPG', // Menggantikan lhvuck.png (Index 1)
         },
 
         // --- Lembar 2 (data-page="1") ---
         { 
-            image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
+            image: './image/photos/mai11.png', // Menggantikan fjr3qh.png (Index 2)
             content: 'Happy Birthday Sayang 💗' 
         },
         { 
-            image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
+            image: './image/photos/mai6.jpg', // Menggantikan 8u5tf7.png (Index 3)
         },
 
         // --- Lembar 3 (data-page="2") ---
@@ -362,21 +362,21 @@ function initializeDefaultSettings() {
                 image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
             },
             { 
-                image: './image/photos/b1.png', // Menggantikan lhvuck.png (Index 1)
+                image: './image/photos/mai8.JPG', // Menggantikan lhvuck.png (Index 1)
             },
 
             // --- Lembar 2 (data-page="1") ---
             { 
-                image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
+                image: './image/photos/mai11.png', // Menggantikan fjr3qh.png (Index 2)
                 content: 'Happy Birthday Sayang 💗' 
             },
             { 
-                image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
+                image: './image/photos/mai6.jpg', // Menggantikan 8u5tf7.png (Index 3)
             },
 
             // --- Lembar 3 (data-page="2") ---
             { 
-                image: './image/photos/b5.png', // Menggantikan tbutvj.png (Index 4)
+                image: './image/photos/mai13.png', // Menggantikan tbutvj.png (Index 4)
                 content: 'I love u more than u know, i love u more than anyone and anything, i love u more than my ego, more than any fights that we have, and more than words will be able to explain.' 
             }
         ]
