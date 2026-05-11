@@ -11,12 +11,12 @@ let settings = {
     matrixColor2: '#ff1493', // Màu pink mẫu
     sequence: 'HI|SEMESTA KECILKU|❤',
     sequenceColor: '#ff69b4', // Màu pink mẫu
-    gift: './image/happy3.gif',
+    gift: './image/mai10.png',
     enableBook: true,
     pages: [
         // --- Lembar 1 (data-page="0") ---
         { 
-            image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
+            image: './image/mai3.png', // Menggantikan bolsw2.png (Index 0)
         },
         { 
             image: './image/photos/IMG_7298.png', // Menggantikan lhvuck.png (Index 1)
@@ -346,12 +346,12 @@ function initializeDefaultSettings() {
     window.settings = {
         music: './music/hbdmusic1.mp3',
         countdown: 3,
-        matrixText: 'HAPPYBIRTHDAY',
+        matrixText: 'MYCUTIELITTLEUNIVERSE',
         matrixColor1: '#ff69b4', // Màu pink mẫu
         matrixColor2: '#ff1493', // Màu pink mẫu
-        sequence: 'HAPPY|BIRTHDAY|TO|SEMESTA KECILKU|❤',
+        sequence: 'HI|SEMESTA KECILKU|❤',
         sequenceColor: '#ff69b4', // Màu pink mẫu
-        gift: './image/happy3.gif',
+        gift: './image/mai10.png',
         enableBook: true,
         enableHeart: true,
         isSave: false,  
@@ -359,7 +359,7 @@ function initializeDefaultSettings() {
         pages: [
             // --- Lembar 1 (data-page="0") ---
             { 
-                image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
+                image: './image/mai3.png', // Menggantikan bolsw2.png (Index 0)
             },
             { 
                 image: './image/photos/IMG_7298.png', // Menggantikan lhvuck.png (Index 1)
@@ -368,7 +368,7 @@ function initializeDefaultSettings() {
             // --- Lembar 2 (data-page="1") ---
             { 
                 image: './image/photos/mai12.png', // Menggantikan fjr3qh.png (Index 2)
-                content: 'Happy Birthday Sayang 💗' 
+                content: 'Semesta Kecil Sayangnya Aku 💗' 
             },
             { 
                 image: './image/photos/mai15.png', // Menggantikan 8u5tf7.png (Index 3)
@@ -1324,12 +1324,12 @@ if (languageSwitchBtn) {
 
             // ✅ Sửa logic enableBook và enableHeart
             window.settings = {
-                music: serverSettings.music || './music/happybirtday_uia.mp3',
+                music: serverSettings.music || './music/Mitski - My Love Mine All Mine (Official Video).mp3',
                 countdown: serverSettings.countdown || 3,
-                matrixText: serverSettings.matrixText || 'HAPPYBIRTHDAY',
+                matrixText: serverSettings.matrixText || 'MYCUTIELITTLEUNIVERSE',
                 matrixColor1: serverSettings.matrixColor1 || '#ffb6c1',
                 matrixColor2: serverSettings.matrixColor2 || '#ffc0cb',
-                sequence: serverSettings.sequence || 'HAPPY|BIRTHDAY|TO|YOU|❤',
+                sequence: serverSettings.sequence || 'HI|SEMESTA KECIL KESAYANGAN AKU|❤',
                 sequenceColor: serverSettings.sequenceColor || '#d39b9b',
                 gift: serverSettings.gift || '',
                 // ✅ Sửa logic boolean - kiểm tra chính xác giá trị
