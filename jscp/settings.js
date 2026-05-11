@@ -11,7 +11,7 @@ let settings = {
     matrixColor2: '#ff1493', // Màu pink mẫu
     sequence: 'HI|SEMESTA KECILKU|❤',
     sequenceColor: '#ff69b4', // Màu pink mẫu
-    gift: './image/mai10.png',
+    gift: './image/IMG_7473.gif',
     enableBook: true,
     pages: [
         // --- Lembar 1 (data-page="0") ---
