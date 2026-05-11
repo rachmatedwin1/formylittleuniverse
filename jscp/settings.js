@@ -19,16 +19,16 @@ let settings = {
             image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
         },
         { 
-            image: './image/photos/mai8.JPG', // Menggantikan lhvuck.png (Index 1)
+            image: './image/photos/IMG_7298.png', // Menggantikan lhvuck.png (Index 1)
         },
 
         // --- Lembar 2 (data-page="1") ---
         { 
-            image: './image/photos/mai11.png', // Menggantikan fjr3qh.png (Index 2)
+            image: './image/photos/mai12.png', // Menggantikan fjr3qh.png (Index 2)
             content: 'Happy Birthday Sayang 💗' 
         },
         { 
-            image: './image/photos/mai6.jpg', // Menggantikan 8u5tf7.png (Index 3)
+            image: './image/photos/mai15.png', // Menggantikan 8u5tf7.png (Index 3)
         },
 
         // --- Lembar 3 (data-page="2") ---
@@ -362,16 +362,16 @@ function initializeDefaultSettings() {
                 image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
             },
             { 
-                image: './image/photos/mai8.JPG', // Menggantikan lhvuck.png (Index 1)
+                image: './image/photos/IMG_7298.png', // Menggantikan lhvuck.png (Index 1)
             },
 
             // --- Lembar 2 (data-page="1") ---
             { 
-                image: './image/photos/mai11.png', // Menggantikan fjr3qh.png (Index 2)
+                image: './image/photos/mai12.png', // Menggantikan fjr3qh.png (Index 2)
                 content: 'Happy Birthday Sayang 💗' 
             },
             { 
-                image: './image/photos/mai6.jpg', // Menggantikan 8u5tf7.png (Index 3)
+                image: './image/photos/mai15.png', // Menggantikan 8u5tf7.png (Index 3)
             },
 
             // --- Lembar 3 (data-page="2") ---
