@@ -16,7 +16,7 @@ let settings = {
     pages: [
         // --- Lembar 1 (data-page="0") ---
         { 
-            image: './image/mai3.png', // Menggantikan bolsw2.png (Index 0)
+            image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
         },
         { 
             image: './image/photos/IMG_7298.png', // Menggantikan lhvuck.png (Index 1)
@@ -46,11 +46,11 @@ let settings = {
 window.lastIsSaveState = false;
 
 const musicOptions = [
-    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Miễn phí)' },
-    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Phiên bản 2)' },
-    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Độ Mixi)' },
-    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Mèo UIA)' },
-    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Instrumental)' },
+    { value: './music/happy-birthday.mp3', label: 'Happy Birthday (Miễn phí)' },
+    { value: './music/happybirthday.mp3', label: 'Happy Birthday (Phiên bản 2)' },
+    { value: './music/happybirthday_domixi.mp3', label: 'Happy Birthday (Độ Mixi)' },
+    { value: './music/happybirtday_uia.mp3', label: 'Happy Birthday (Mèo UIA)' },
+    { value: './music/music.mp3', label: 'Happy Birthday (Instrumental)' },
     { value: './music/postcardnam.mp3', label: 'Happy Birthday Podcast (Nam)' },
     { value: './music/podcardnu.mp3', label: 'Happy Birthday Podcast (Nữ)' },
     { value: './music/givemeyourforever.mp3', label: 'Give Me Your Forever' },
@@ -359,7 +359,7 @@ function initializeDefaultSettings() {
         pages: [
             // --- Lembar 1 (data-page="0") ---
             { 
-                image: './image/mai3.png', // Menggantikan bolsw2.png (Index 0)
+                image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
             },
             { 
                 image: './image/photos/IMG_7298.png', // Menggantikan lhvuck.png (Index 1)
