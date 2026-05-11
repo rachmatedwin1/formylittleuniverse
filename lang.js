@@ -1,6 +1,6 @@
 const translations = {
     vi: {
-        title: "Made For Winda 🎁",
+        title: "Made For Ajeng 🎁",
         description: "Một món quà đầy yêu thương đang chờ bạn khám phá! Nhấn để xem lời chúc đặc biệt!",
         login: "Đăng nhập bằng Google",
         logout: "Đăng xuất",
@@ -157,7 +157,7 @@ const translations = {
         note: "⏳ Note: The website is valid for only 7 days, so don't create it too early!",
         follow: "🥰 Please follow me to get the latest websites as soon as possible!",
         apply: "Apply Settings",
-        copyright: 'Website created by tiktoker:<a href="https://www.tiktok.com/@iamtritoan?is_from_webapp=1&sender_device=pc" target="_blank"> @iamtritoan</a>',
+        copyright: 'Website created by Sayang Kamu',
         fullscreen: "Fullscreen",
         // ...add more keys as needed...
 
@@ -249,7 +249,7 @@ const translations = {
         sec5: "5 seconds",
         sec10: "10 seconds",
         noGif: "None",
-        notVietnamWarning: 'If you encounter any issues, please message me on TikTok<a href="https://www.tiktok.com/@iamtritoan?is_from_webapp=1&sender_device=pc" target="_blank" style="color:#ff0050;font-weight:bold;text-decoration:underline;"> @iamtritoan</a> for support.',
+        notVietnamWarning: 'If you encounter any issues, please message me.',
         isSave: "Save QR forever:",
         saveForever: "forever",
         saveForeverPrice: "(Add 20,000 VND)",
