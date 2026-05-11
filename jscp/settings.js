@@ -4,7 +4,7 @@ const closeModal = document.querySelector('.close');
 let pages = [];
 const applySettingsButton = document.getElementById('applySettings');
 let settings = {
-    music: 'music/hbdmusic1.mp3',
+    music: 'music/Mitski - My Love Mine All Mine (Official Video).mp3',
     countdown: 3,
     matrixText: 'MYCUTIELITTLEUNIVERSE',
     matrixColor1: '#ff69b4', // Màu pink mẫu
@@ -25,7 +25,7 @@ let settings = {
         // --- Lembar 2 (data-page="1") ---
         { 
             image: './image/photos/mai12.png', // Menggantikan fjr3qh.png (Index 2)
-            content: 'Happy Birthday Sayang 💗' 
+            content: 'Semesta Kecil Sayangnya Aku 💗' 
         },
         { 
             image: './image/photos/mai15.png', // Menggantikan 8u5tf7.png (Index 3)
@@ -46,11 +46,11 @@ let settings = {
 window.lastIsSaveState = false;
 
 const musicOptions = [
-    { value: './music/happy-birthday.mp3', label: 'Happy Birthday (Miễn phí)' },
-    { value: './music/happybirthday.mp3', label: 'Happy Birthday (Phiên bản 2)' },
-    { value: './music/happybirthday_domixi.mp3', label: 'Happy Birthday (Độ Mixi)' },
-    { value: './music/happybirtday_uia.mp3', label: 'Happy Birthday (Mèo UIA)' },
-    { value: './music/music.mp3', label: 'Happy Birthday (Instrumental)' },
+    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Miễn phí)' },
+    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Phiên bản 2)' },
+    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Độ Mixi)' },
+    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Mèo UIA)' },
+    { value: './music/Mitski - My Love Mine All Mine (Official Video).mp3', label: 'Happy Birthday (Instrumental)' },
     { value: './music/postcardnam.mp3', label: 'Happy Birthday Podcast (Nam)' },
     { value: './music/podcardnu.mp3', label: 'Happy Birthday Podcast (Nữ)' },
     { value: './music/givemeyourforever.mp3', label: 'Give Me Your Forever' },
