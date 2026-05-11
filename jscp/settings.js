@@ -6,10 +6,10 @@ const applySettingsButton = document.getElementById('applySettings');
 let settings = {
     music: 'music/hbdmusic1.mp3',
     countdown: 3,
-    matrixText: 'HAPPYBIRTHDAY',
+    matrixText: 'MYCUTIELITTLEUNIVERSE',
     matrixColor1: '#ff69b4', // Màu pink mẫu
     matrixColor2: '#ff1493', // Màu pink mẫu
-    sequence: 'HAPPY|BIRTHDAY|TO|SEMESTA KECILKU|❤',
+    sequence: 'HI|SEMESTA KECILKU|❤',
     sequenceColor: '#ff69b4', // Màu pink mẫu
     gift: './image/happy3.gif',
     enableBook: true,
