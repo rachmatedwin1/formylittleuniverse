@@ -4,7 +4,7 @@ const closeModal = document.querySelector('.close');
 let pages = [];
 const applySettingsButton = document.getElementById('applySettings');
 let settings = {
-    music: 'music/Mitski - My Love Mine All Mine (Official Video).mp3',
+    music: 'music/Mitski - mine all mine.mp3',
     countdown: 3,
     matrixText: 'MYCUTIELITTLEUNIVERSE',
     matrixColor1: '#ff69b4', // Màu pink mẫu
@@ -87,7 +87,7 @@ const gifOptions = [
     { value: '', label: 'None' },
     { value: './gif/happy.gif', label: 'Gif1' },
     { value: './gif/Cat Love GIF by KIKI.gif', label: 'Gif2' },
-    { value: './gif/Happy-Birthday-GIF-by-BREAD-TR-unscreen.gif', label: 'Gif3' },
+    { value: './gif/IMG_7473.gif', label: 'Gif3' },
     { value: './gif/happy2.gif', label: 'Gif4' },
     { value: './gif/happy3.gif', label: 'Gif5' },
 ];
@@ -344,14 +344,14 @@ function resetWebsiteState() {
 function initializeDefaultSettings() {
 
     window.settings = {
-        music: './music/hbdmusic1.mp3',
+        music: './music/mine all mine.mp3',
         countdown: 3,
         matrixText: 'MYCUTIELITTLEUNIVERSE',
         matrixColor1: '#ff69b4', // Màu pink mẫu
         matrixColor2: '#ff1493', // Màu pink mẫu
         sequence: 'HI|SEMESTA KECILKU|❤',
         sequenceColor: '#ff69b4', // Màu pink mẫu
-        gift: './image/mai10.png',
+        gift: './image/IMG_7473.gif',
         enableBook: true,
         enableHeart: true,
         isSave: false,  
@@ -997,7 +997,7 @@ function saveFormDataToSettings() {
 function updatePricingFromModal() {
     if (window.pricingCalculator) {
         const currentModalSettings = {
-            music: document.getElementById('backgroundMusic')?.value || './music/happybirtday_uia.mp3',
+            music: document.getElementById('backgroundMusic')?.value || './music/mine all mine.mp3',
             enableBook: document.getElementById('enableBook')?.value === 'true',
             enableHeart: document.getElementById('enableHeart')?.value === 'true',
             isSave: document.getElementById('isSave')?.checked || false,
@@ -1324,7 +1324,7 @@ if (languageSwitchBtn) {
 
             // ✅ Sửa logic enableBook và enableHeart
             window.settings = {
-                music: serverSettings.music || './music/Mitski - My Love Mine All Mine (Official Video).mp3',
+                music: serverSettings.music || './music/mine all mine.mp3',
                 countdown: serverSettings.countdown || 3,
                 matrixText: serverSettings.matrixText || 'MYCUTIELITTLEUNIVERSE',
                 matrixColor1: serverSettings.matrixColor1 || '#ffb6c1',
@@ -1400,10 +1400,10 @@ applySettingsButton.addEventListener('click', () => {
     // Cập nhật settings từ form
     settings.music = document.getElementById('backgroundMusic').value;
     settings.countdown = parseInt(document.getElementById('countdownTime').value) || 3;
-    settings.matrixText = document.getElementById('matrixText').value || 'HAPPYBIRTHDAY';
+    settings.matrixText = document.getElementById('matrixText').value || 'MYCUTIELITTLEUNIVERSE';
     settings.matrixColor1 = document.getElementById('matrixColor1').value;
     settings.matrixColor2 = document.getElementById('matrixColor2').value;
-    settings.sequence = document.getElementById('sequenceText').value || 'HAPPY|BIRTHDAY|MY|CUTIE|LITTLE|UNIVERSE|❤';
+    settings.sequence = document.getElementById('sequenceText').value || 'HI|MY|CUTIE|LITTLE|UNIVERSE|❤';
     settings.sequenceColor = document.getElementById('sequenceColor').value;
     settings.gift = document.getElementById('giftImage').value;
     
