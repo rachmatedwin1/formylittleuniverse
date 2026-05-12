@@ -25,7 +25,7 @@ let settings = {
         // --- Lembar 2 (data-page="1") ---
         { 
             image: './image/photos/mai12.png', // Menggantikan fjr3qh.png (Index 2)
-            content: 'Semesta Kecil Sayangnya Aku 💗' 
+            content: 'Aku paham dan ngerti kamu yg kadang suka tiba-tiba aja rusak mood atau suasana hatinya, dan aku pun tau mungkin itu salah satu hal yg blm bisa kamu jelasin ke aku, aku cuma mau kamu tau..' 
         },
         { 
             image: './image/photos/mai15.png', // Menggantikan 8u5tf7.png (Index 3)
@@ -34,7 +34,7 @@ let settings = {
         // --- Lembar 3 (data-page="2") ---
         { 
             image: './image/theend.jpg', // Menggantikan tbutvj.png (Index 4)
-            content: 'I love u more than u know, i love u more than anyone and anything, i love u more than my ego, more than any fights that we have, and more than words will be able to explain.' 
+            content: 'I love u more than u know, i love u more than anyone and anything, i love u more than my ego, more than any fights that we have, and more than words will be able to explain.💗' 
         }
     ],
     enableBook: true,
@@ -368,7 +368,7 @@ function initializeDefaultSettings() {
             // --- Lembar 2 (data-page="1") ---
             { 
                 image: './image/photos/mai12.png', // Menggantikan fjr3qh.png (Index 2)
-                content: 'Semesta Kecil Sayangnya Aku 💗' 
+                content: 'Aku paham dan ngerti kamu yg kadang suka tiba-tiba aja rusak mood atau suasana hatinya, dan aku pun tau mungkin itu salah satu hal yg blm bisa kamu jelasin ke aku, aku cuma mau kamu tau..' 
             },
             { 
                 image: './image/photos/mai15.png', // Menggantikan 8u5tf7.png (Index 3)
@@ -377,7 +377,7 @@ function initializeDefaultSettings() {
             // --- Lembar 3 (data-page="2") ---
             { 
                 image: './image/photos/mai13.png', // Menggantikan tbutvj.png (Index 4)
-                content: 'I love u more than u know, i love u more than anyone and anything, i love u more than my ego, more than any fights that we have, and more than words will be able to explain.' 
+                content: 'I love u more than u know, i love u more than anyone and anything, i love u more than my ego, more than any fights that we have, and more than words will be able to explain.💗' 
             }
         ]
     };
